@@ -1,0 +1,50 @@
+.float_img {
+            float:left;
+            width: 400px;
+            height: 300px;
+}
+
+.img_margin {
+           margin:15px; 
+}
+body {
+    background-color:whitesmoke;
+    font-family:futura-pt,sans-serif;
+    font-size: 15px;
+    
+}
+
+.div_position {
+    margin-top: 50px;
+}
+
+.white_background {
+    background-color: white;
+}
+
+.yellow_background {
+    background-color: yellow;
+}
+
+img {
+    object-position: center;
+    margin: 2px;
+    
+}
+
+h1 {
+    color: cadetblue;
+    letter-spacing: .4px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.nav_header {
+    background-color: cadetblue;
+    font-family:futura-pt,sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(253, 252, 246);
+    padding:1px;
+}
