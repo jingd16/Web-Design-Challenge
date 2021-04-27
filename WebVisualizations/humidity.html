@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <meta charset="UTF-8">
-        <title>Landing Page</title>
+        <title>Latitude v. Max Humidity</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head> 
@@ -42,24 +42,20 @@
             </div>
           </nav>
 
-
-
-
         <div class="container div_position">
                 <!--Normally these medium columns go full wide on small screen sizes-->
             <div class="row">
                 <!--First Row 8 + 4 columns-->
                 <div class="col-md-8 white_background">
                     <div class="div_position">
-                        <h1>Summary: Latitude vs. X</h1>
+                        <h1>Latitude vs. Humidity</h1>
                         <br>
                         <br>
-                            <p>
-                                <img class="float_img img_margin" width="350px" height="300px" src="assets/Temp.png" alt="Temp">
-                            The purpose of the project was to analysze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                            
+                            <img width="600px" height="500px" src="assets/Humidity.png" alt="Humidity">
+                            <p>As expected, the weather becomes significantly wamer as one approaches the equatoer (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be wamer this time of year than the northern hemisphere. This maybe due to the tilt of the earth at the time of the year this data was gathered.
                             </p>
-                            <br>
-                            <p>After assembling the dataset we used Matplotlib to plot various aspects of the weather vs.Latitude. Factors we looked at included: Temperature, cloudiness, wind speed and humidity. This site provides the source data and visualisations created as part of the analysis, as well as explanations od discroptions of any trends and corrolations witnessed.</p>
+                            
                     </div>
                 </div>
 

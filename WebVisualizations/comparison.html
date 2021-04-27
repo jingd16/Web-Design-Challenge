@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <meta charset="UTF-8">
-        <title>Landing Page</title>
+        <title>Comparison</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head> 
@@ -40,48 +40,74 @@
                 </li>
               </ul>
             </div>
-          </nav>
+        </nav>
+
+        
 
 
-
-
-        <div class="container div_position">
+        <div class="container div_position white_background">
+            <br>
+            <h1>Comparison: Latitude vs X</h1>
+            <hr>
+            <p>Click any plot to get an in-depth analysis. </p>
                 <!--Normally these medium columns go full wide on small screen sizes-->
             <div class="row">
-                <!--First Row 8 + 4 columns-->
-                <div class="col-md-8 white_background">
+                <!--First Row 4 + 4 columns-->
+                <div class="col-md-6 white_background">
                     <div class="div_position">
-                        <h1>Summary: Latitude vs. X</h1>
+                        <h1>Latitude vs. Max Temperature</h1>
                         <br>
                         <br>
                             <p>
-                                <img class="float_img img_margin" width="350px" height="300px" src="assets/Temp.png" alt="Temp">
-                            The purpose of the project was to analysze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                                <a href="temp.html"><img class="float_img img_margin" width="350px" height="300px" src="assets/Temp.png" alt="Temp"></a>
                             </p>
                             <br>
-                            <p>After assembling the dataset we used Matplotlib to plot various aspects of the weather vs.Latitude. Factors we looked at included: Temperature, cloudiness, wind speed and humidity. This site provides the source data and visualisations created as part of the analysis, as well as explanations od discroptions of any trends and corrolations witnessed.</p>
                     </div>
                 </div>
 
-                <div class="col-md-4 white_background">
+                <div class="col-md-6 white_background">
                     <div class="div_position">
-                        <h1>Visualisation</h1>
-                        <hr>
-                            <table>
-                                <tr>
-                                <td><a href="temp.html"><img class="img-thumbnail" src="assets/Temp.png" alt="Temp"></a></td>
-                                <td><a href="humidity.html"><img class="img-thumbnail" src="assets/Humidity.png" alt="Humidity"></a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="cloudiness.html"><img class="img-thumbnail" src="assets/Cloudiness.png" alt="Cloudiness"></a></td>
-                                    <td><a href="windspeed.html"><img class="img-thumbnail" src="assets/Windspeed.png" alt="Windspeed"></a></td>
-                                    </tr>
-                            </table>
-                            
+                        <h1>Latitude vs. Humidity</h1>
+                        <br>
+                        <br>
+                            <p>
+                                <a href="humidity.html"><img class="float_img img_margin" width="350px" height="300px" src="assets/Humidity.png" alt="Humidity"></a>
+                            </p>
+                            <br>
                     </div>
                 </div>
-                  
             </div>
+
+            <div class="row">
+                <!--2nd Row 4 + 4 columns-->
+                <div class="col-md-6 white_background">
+                    <div class="div_position">
+                        <h1>Latitude vs. Cloudiness</h1>
+                        <br>
+                        <br>
+                            <p>
+                                <a href="cloudiness.html"><img class="float_img img_margin" width="350px" height="300px" src="assets/Cloudiness.png" alt="Cloudiness"></a>
+                            </p>
+                            <br>
+                    </div>
+                </div>
+
+                <div class="col-md-6 white_background">
+                    <div class="div_position">
+                        <h1>Latitude vs. Wind Speed</h1>
+                        <br>
+                        <br>
+                            <p>
+                                <a href="windspeed.html"><img class="float_img img_margin" width="350px" height="300px" src="assets/Windspeed.png" alt="Windspeed"></a>
+                            </p>
+                            <br>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

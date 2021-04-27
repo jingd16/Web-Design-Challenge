@@ -22,10 +22,6 @@ body {
     background-color: white;
 }
 
-.yellow_background {
-    background-color: yellow;
-}
-
 img {
     object-position: center;
     margin: 2px;
@@ -47,4 +43,8 @@ h1 {
     font-style: normal;
     color: rgb(253, 252, 246);
     padding:1px;
+}
+
+th {
+    text-align: left;
 }
