@@ -1,15 +1,24 @@
 .float_img {
             float:left;
-            width: 400px;
-            height: 300px;
+            width: 50%;
+            height: 50%;
 }
 
 .img_margin {
            margin:15px; 
+           width: 70%;
+           height: 70%;
 }
+
+.img_margin_comp {
+    margin:15px; 
+    width: 90%;
+    height: 90%;
+}
+
 body {
     background-color:whitesmoke;
-    font-family:futura-pt,sans-serif;
+    font-family:Georgia;
     font-size: 15px;
     
 }
@@ -24,7 +33,6 @@ body {
 
 img {
     object-position: center;
-    margin: 2px;
     
 }
 
@@ -35,14 +43,23 @@ h1 {
     font-size: 35px;
 }
 
+h2 {
+    color: cadetblue;
+    letter-spacing: .4px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+
 
 .nav_header {
     background-color: cadetblue;
-    font-family:futura-pt,sans-serif;
-    font-size: 30px;
+    font-family:georgia;
+    font-size: 25px;
     font-style: normal;
     color: rgb(253, 252, 246);
-    padding:1px;
+    padding:10px;
 }
 
 th {
